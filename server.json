@@ -1,0 +1,15 @@
+{
+    "name":"cfmetrics",
+    "web":{
+        "http":{
+            "port":8571
+        }
+    },
+    "app":{
+        "cfengine":"lucee-light@5.3.7+47"
+    },
+    "JVM":{
+        "minHeapSize":"48m",
+        "heapSize":"64m"
+    }
+}
