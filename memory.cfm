@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-	<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-h21C2fcDk/eFsW9sC9h0dhokq5pDinLNklTKoxIZRUn3+hvmgQSffLLQ4G4l2eEr" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 	<style>
 		.progress { height:26px; }
 		.progress .progress-bar { line-height: 26px; font-size:16px; }
@@ -90,6 +90,7 @@
 					A CFML Products &amp; Services Company.
 					<br>
 					<a href="https://foundeo.com/consulting/coldfusion/">ColdFusion Consulting</a> |
+					<a href="https://fixinator.app/">Fixinator</a> |
 					<a href="https://foundeo.com/hack-my-cf/">HackMyCF</a> |
 					<a href="https://foundeo.com/security/fuseguard/">FuseGuard</a>
 				</div>
