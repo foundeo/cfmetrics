@@ -52,17 +52,17 @@
 
 		<h2>Current Heap Memory Usage</h2>
 		<div class="progress">
-		  <div class="progress-bar <cfif percentUsed GT 90>progress-bar-danger<cfelseif percentUsed GT 50>progress-bar-warning<cfelse>progress-bar-info</cfif> text-large" role="progressbar" style="width:#int(percentUsed)#%">
+		  <div class="progress-bar <cfif percentUsed GT 90>progress-bar-danger<cfelseif percentUsed GT 50>bg-warning<cfelse>bg-info</cfif> text-large" role="progressbar" style="width:#int(percentUsed)#%">
 		    #percentUsed#% In Use
 		  </div>
-		  <div class="progress-bar progress-bar-success text-large" role="progressbar" style="width:#int(100-int(percentUsed))#%">
+		  <div class="progress-bar bg-success text-large" role="progressbar" style="width:#int(100-int(percentUsed))#%">
 		    #percentFree#% Free
 		  </div>
 		</div>
 
 		<h2>Heap Allocation</h2>
 		<div class="progress">
-		  <div class="progress-bar progress-bar-info" role="progressbar" style="width:#int(percentAllocated)#%">
+		  <div class="progress-bar bg-info" role="progressbar" style="width:#int(percentAllocated)#%">
 		    <div class="text-large">#percentAllocated#% Allocated</div>
 		  </div>
 		</div>
